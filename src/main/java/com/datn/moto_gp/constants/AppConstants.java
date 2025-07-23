@@ -1,5 +1,11 @@
-package com.datn.moto_gp.constants.enums;
+package com.datn.moto_gp.constants;
 
+import lombok.AccessLevel;
+import lombok.Data;
+import lombok.experimental.FieldDefaults;
+
+@Data
+@FieldDefaults(level = AccessLevel.PUBLIC, makeFinal = true)
 public class AppConstants {
 
         // Pagination
