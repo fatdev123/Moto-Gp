@@ -11,5 +11,5 @@ import org.mapstruct.MappingTarget;
 public interface StatusTypeMapper {
     StatusType toStatusType(StatusTypeCreationRequest request);
     StatusTypeResponse toStatusTypeResponse(StatusType statusType);
-    void updateUser(@MappingTarget StatusType statusType, StatusTypeUpdateRequest request);
+    void updateStatusType(@MappingTarget StatusType statusType, StatusTypeUpdateRequest request);
 }
